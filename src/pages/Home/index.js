@@ -9,7 +9,6 @@ export function Home() {
 
     useEffect(() => {
         async function getCharacters() {
-            const response = await fetch("https://breakingbadapi.com/api/characters")
             const data = await response.json();
             console.log(data)
             setCharacters(data)

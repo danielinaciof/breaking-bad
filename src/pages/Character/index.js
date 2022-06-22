@@ -14,7 +14,7 @@ export function Character() {
             setCharacter(data[0])
         }
         getCharacter();
-    }, [])
+    }, [id])
 
     return (
         <div className="character-container">

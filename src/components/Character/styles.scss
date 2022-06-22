@@ -1,0 +1,23 @@
+.card {
+    width: calc(100% / 6);
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+
+    @media(max-width:577px) {
+        width: calc(100%/2);
+
+    }
+
+    &-image {
+        padding-bottom: 150%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+     
+    }
+
+    .card-character {
+        padding-top: 0.74rem;
+        font-size: 16px;
+    }
+}
